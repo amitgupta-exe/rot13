@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import caeser from '../caeser_landscape.jpg';
+
 
 const Rot13 = () => {
 
@@ -78,7 +80,7 @@ const Rot13 = () => {
     return (
         <main className="main">
 
-            <img className="caeser-bg" src="/caeser_landscape.jpg" alt="" />
+            <img className="caeser-bg" src={caeser} alt="" />
 
 
 
